@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="head">
+    <h1>
+        Cash Register Project
+    </h1>
+</div>
+<div class="input-section">
+    <label for="cash">
+        Enter cash from customer:
+    </label>
+    <input id="cash" type="number"/>
+</div>
+<div id="change-due">
+</div>
+<button id="purchase-btn" type="button">purchase</button>
+<div class="cash-register">
+    <div class="cash-screen">
+  <span id="screen-text">
+    Total: $19.5
+  </span>
+    </div>
+    <div class="cash-hold"></div>
+    <div class="cash-body">
+        <div class="cash-buttons">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+            <div class="six"></div>
+            <div class="seven"></div>
+            <div class="eight"></div>
+            <div class="nine"></div>
+        </div>
+        <div class="cash-amount">
+            <div class="cash-unit">
+                <p><strong>Change in drawer:</strong></p>
+                <p>Pennies:<span id="pennies">$1.01</span></p>
+                <p>Nickels:<span id="nickels">$2.05</span></p>
+                <p>Dimes:<span id="dimes">$3.1</span></p>
+                <p>Quarters:<span id="quarters">$4.25</span></p>
+                <p>Dollar:<span id="dollar">$90</span></p>
+                <p>Five Dollars:<span id="fiveDollars">$55</span></p>
+                <p>Ten Dollars:<span id="tenDollars">$20</span></p>
+                <p>Twenty Dollars:<span id="twentyDollars">$60</span></p>
+                <p>One Hundred:<span id="oneHundred">$100</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="cash-safe">
+        <div class="cash-key"></div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

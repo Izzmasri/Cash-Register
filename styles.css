@@ -1,0 +1,107 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color:#0A0A23;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.head{
+    color:white;
+    margin-top:20px;
+}
+label{
+    color:white;
+}
+.input-section{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin-top:20px;
+}
+#change-due{
+    color:white;
+    margin-top:20px;
+}
+button{
+    background-color:#FFB138;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    margin-top:20px;
+    border:3px solid #fecc4c;
+}
+.cash-register{
+    margin-top:40px;
+}
+.cash-screen{
+    width:180px;
+    height:50px;
+    border:10px solid #99C9FF;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.cash-hold{
+    width:35px;
+    height:35px;
+    background-color:#99C9FF;
+    margin-left:35px;
+}
+.cash-body{
+    position: relative;
+    width:230px;
+    height:215px;
+    border-radius:20px 20px 0 0;
+    background-color:#99C9FF;
+}
+.cash-amount{
+    position:absolute;
+    top:20px;
+    left:85px;
+    width:135px;
+    height:185px;
+    background-color:white;
+}
+.cash-buttons{
+    display:grid;
+    width:60px;
+    height:60px;
+    grid-template-columns:20px 20px 20px;
+    grid-template-rows:20px 20px 20px;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
+    width: 16px;
+    height: 16px;
+    background-color: black;
+    border-radius:3px;
+    margin:20px 0px 0px 15px;
+}
+.cash-unit p{
+    margin:0 0 0 1px;
+    padding:0;
+}
+.cash-unit span{
+    margin-left:3px;
+}
+.cash-safe{
+    position:relative;
+    width:230px;
+    height:40px;
+    margin-top:5px;
+    background-color:#99C9FF;
+}
+.cash-key{
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    position:absolute;
+    background-color:#0A0A23;
+    top:13px;
+    left:104px;
+}
+
+
